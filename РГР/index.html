@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Новини штучного інтелекту</title>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="img/logo-4.png">
+    </head>
+    <body>
+        <div class="layout">
+            <header class="navigation-wrap start-header start-style">
+                <div class="hero-anime">	
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <nav class="navbar navbar-expand-md navbar-light">
+                                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>	
+                            
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                            
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                                <a class="nav-link" href="about_site.html">Про сайт</a>
+                                            </li>
+                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                                <a class="nav-link" href="index.html#news">Останні новини</a>
+                                            </li>
+                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Контакти</a>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="index.html#Teem">часи роботи</a>
+                                                    <a class="dropdown-item" href="index.html#clock">наша команда</a>
+                                                    <a class="dropdown-item" href="index.html#TeemBot">наш офіс</a>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                                <a class="nav-link" href="gallery.html">Галерея картинок</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>		
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+
+                <div class="slider" id="news">
+                    <h1>Останні новини</h1>
+                    <div class="item">
+                        <a class="previous" onclick="previousSlide()">&#10094;</a>
+                        <div class="item_col">
+                           <h2>Росія використовує ШІ-технологію OpenAI для поширення пропаганди проти України</h2>
+                           <h3>OpenAI, розробник популярного чат-бота ChatGPT, виявив декілька груп з ряду країн, серед яких Росія, Китай та Іран, які використовують його ШІ-технологію для спроби вплинути на політичний дискурс у всьому світі.</h3> 
+                           <button class="btn"><a href="GPT.html" class="nav-but">Дізнатися більше</a></button>
+                        </div>           
+                        <img src="img/GPT.jpg" alt="" class="SliderImg">
+                        <a class="next" onclick="nextSlide()">&#10095;</a>
+                    </div>
+            
+                    <div class="item">
+                        <a class="previous" onclick="previousSlide()">&#10094;</a>
+                        <div class="item_col">
+                           <h2>Україна долучилася до глобальної співпраці з безпечного розвитку штучного інтелекту</h2>
+                           <h3>У Сеулі (Південна Корея) відбувся другий глобальний саміт із безпечного розвитку технологій штучного інтелекту (ШІ), в якому взяла участь і Україна.</h3> 
+                           <button class="btn"><a href="global.html" class="nav-but">Дізнатися більше</a></button>
+                        </div>           
+                        <img src="img/robot.jpg" alt="" class="SliderImg">
+                        <a class="next" onclick="nextSlide()">&#10095;</a>
+                    </div>
+            
+                    <div class="item">
+                        <a class="previous" onclick="previousSlide()">&#10094;</a>
+                        <div class="item_col">
+                           <h2>Copilot від Microsoft тепер доступний у Telegram</h2>
+                           <h3>ШІ-асистент Copilot від Microsoft, який може генерувати текст і відповідати на конкретні запитання, тепер доступний як вбудований чат-бот у Telegram.</h3> 
+                           <button class="btn"><a href="copilot.html" class="nav-but">Дізнатися більше</a></button>
+                        </div>           
+                        <img src="img/copilot.jpg" alt="" class="SliderImg">
+                        <a class="next" onclick="nextSlide()">&#10095;</a>
+                    </div>
+                    
+                    <div class="arrow_mobile">
+                        <a class="previous_mobile" onclick="previousSlide()">&#10094;</a>
+                        <a class="next_mobile" onclick="nextSlide()">&#10095;</a>
+                    </div>
+                    
+                </div>
+
+                <div class="DopInf" id="DopInf">
+                    <div class="InfText">
+                        <h1 class="InfH1">Дослідження останніх тенденцій у штучному інтелекті</h1>
+                        <p class="InfP">Залишайтеся в курсі останніх інновацій і проривів у сфері ШІ. Від прогресу машинного навчання до етики штучного інтелекту ми розглядаємо тенденції, які формують майбутнє.</p>
+                        <ul class="InfOl">
+                            <li>Інновації машинного навчання</li>
+                            <li>Актуальні Новини ШІ</li>
+                        </ul>
+                    </div>
+                    <img src="img/robot.webp" alt="" class="InfImg">
+                </div>            
+
+                <h1 class="Teem" id="Teem">Зустічайте команду</h1>
+                <p class="TeemP">Ми працюєм від 8:00 до 20:00</p>
+                <div id="clock">Теперішній час <span class="hour">hh</span>:<span class="min">mm</span>:<span class="sec">ss</span></div>
+
+                <div class="TeemCards" id="TeemCards">
+                    <ul class="cards">
+                        <li>
+                            <img src="img/Teem1.webp"/>
+                            <div class="details"><span class="name">Євген Максимович</span><span class="title">Власник сайту</span><a class="phone">123456789</a><a class="email">Evgen.Maksimov@gmail.com</a></div>
+                        </li>
+                        <li>
+                            <img src="img/Teem2.webp"/>
+                            <div class="details"><span class="name">Олена Петрівна</span><span class="title">Генеральний менеджер</span><a class="phone">123456789</a><a class="email">Olena.Petrivna@gmail.com</a></div>
+                        </li>
+                        <li>
+                            <img src="img/Teem3.webp">
+                            <div class="details"><span class="name">Антон Карпенко</span><span class="title">експерт в сфері ІТ</span><a class="phone">123456789</a><a class="email">Anton.Olegov@gmail.com</a></div>
+                        </li>
+                        <li>
+                            <img src="img/Teem4.webp">
+                            <div class="details"><span class="name">Саша Шеремет</span><span class="title">Редактор</span><a class="phone">123456789</a><a class="email">Sasha.Sheremet@gmail.com</a></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="TeemBot" id="TeemBot">Наш офіс</p>
+                <div id="map-container">
+                    <div id="map">
+                        <iframe allowfullscreen="" aria-hidden="false" frameborder="0" loading="lazy" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20697.837190970386!2d34.57257805854492!3d49.574556912607854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x528a08266c1d4938!2z0J3QsNGG0ZbQvtC90LDQu9GM0L3QuNC5INGD0L3RltCy0LXRgNGB0LjRgtC10YIgwqvQn9C-0LvRgtCw0LLRgdGM0LrQsCDQv9C-0LvRltGC0LXRhdC90ZbQutCwINGW0LzQtdC90ZYg0K7RgNGW0Y8g0JrQvtC90LTRgNCw0YLRjtC60LDCuw!5e0!3m2!1suk!2sua!4v1610624911843!5m2!1suk!2sua" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </main>
+            
+            <footer class="footer" id="footer">
+                <div class="container-footer">
+                    <ul class="social-icon">
+                        <li class="social-icon__item"><a class="social-icon__link" href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li class="social-icon__item"><a class="social-icon__link" href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li class="social-icon__item"><a class="social-icon__link" href="#"><ion-icon name="logo-discord"></ion-icon></a></li>
+                        <li class="social-icon__item"><a class="social-icon__link" href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </ul>
+    
+                    <ul class="menu">
+                        <li class="menu__item"><a class="menu__link" href="#">Правила сайту</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Вакансії</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Авторське право</a></li>
+                    </ul>
+                    <p>&copy;Sheremet Nazar</p>
+                </div>
+            </footer>
+        </div>  
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+        <script  src="js/script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+        
+        <script>
+            let slideIndex = 1;
+
+            showSlides(slideIndex);
+            setInterval(nextSlide, 10000)
+
+            function nextSlide() {
+                showSlides(slideIndex += 1);
+            }
+
+            function previousSlide() {
+                showSlides(slideIndex -= 1);  
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let slides = document.getElementsByClassName("item");
+    
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+  
+                for (let slide of slides) {
+                    slide.style.display = "none";
+                }
+                slides[slideIndex - 1].style.display = "flex";    
+            }
+        </script>
+    </body>
+</html>
