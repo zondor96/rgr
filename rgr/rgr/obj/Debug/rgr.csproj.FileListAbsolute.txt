@@ -1,0 +1,10 @@
+C:\Users\sheremet\Desktop\Новая папка\OOP\rgr\rgr\rgr\bin\Debug\rgr.exe.config
+C:\Users\sheremet\Desktop\Новая папка\OOP\rgr\rgr\rgr\bin\Debug\rgr.exe
+C:\Users\sheremet\Desktop\Новая папка\OOP\rgr\rgr\rgr\bin\Debug\rgr.pdb
+C:\Users\sheremet\Desktop\Новая папка\OOP\rgr\rgr\rgr\obj\Debug\rgr.csproj.AssemblyReference.cache
+C:\Users\sheremet\Desktop\Новая папка\OOP\rgr\rgr\rgr\obj\Debug\rgr.Form1.resources
+C:\Users\sheremet\Desktop\Новая папка\OOP\rgr\rgr\rgr\obj\Debug\rgr.Properties.Resources.resources
+C:\Users\sheremet\Desktop\Новая папка\OOP\rgr\rgr\rgr\obj\Debug\rgr.csproj.GenerateResource.cache
+C:\Users\sheremet\Desktop\Новая папка\OOP\rgr\rgr\rgr\obj\Debug\rgr.csproj.CoreCompileInputs.cache
+C:\Users\sheremet\Desktop\Новая папка\OOP\rgr\rgr\rgr\obj\Debug\rgr.exe
+C:\Users\sheremet\Desktop\Новая папка\OOP\rgr\rgr\rgr\obj\Debug\rgr.pdb
